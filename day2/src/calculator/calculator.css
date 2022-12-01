@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    height: 100%;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: plum;
+  }
+    
+  .btn {
+    cursor: pointer;
+    color: rebeccapurple;
+    font-size: 2em;
+    border-radius: 1rem;
+  }
+  
+  .cursor {
+      animation-name: blink;
+      animation-duration: 1s;
+      animation-iteration-count: infinite;
+  }
